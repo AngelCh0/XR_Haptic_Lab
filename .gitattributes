@@ -1,0 +1,19 @@
+# Normalizar finales de linea en el repositorio
+* text=auto
+
+# Archivos de Unity que deben conservar LF
+*.cs        text diff=csharp
+*.unity     text
+*.asmdef    text
+*.meta      text
+
+# Archivos binarios
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.ico       binary
+*.mp3       binary
+*.wav       binary
+*.fbx       binary
+*.unitypackage binary
